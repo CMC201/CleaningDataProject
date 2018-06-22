@@ -13,21 +13,21 @@ Ensure that the data.table, dplyr, and plyr packages are all installed in order 
 
 IMPORT FILES AND SET UP THE DATA TABLE
 
-We begin by importing the necessary data files into R
-We now append the row labels and subject IDs for both the training and test sets
-Finally, we combine the test and training sets into one large data table
-And clean up our intermediate data
+We begin by importing the necessary data files into R.
+We now append the row labels and subject IDs for both the training and test sets.
+Finally, we combine the test and training sets into one large data table.
+And clean up our intermediate data.
 
 ASSIGN APPROPRIATE COLUMN NAMES
 
-We manually label the subject ID and activity columns
-And import the rest of the column names from the features file
-Now we assign the column names
-Clean up intermediate objects
+We manually label the subject ID and activity columns.
+And import the rest of the column names from the features file.
+Now we assign the column names.
+Clean up intermediate objects.
 
 EXTRACT MEAN AND STD INFO
 
-First we define our selection criteria, selecting only measurements with names containing "mean()" or "std()"
+First we define our selection criteria, selecting only measurements with names containing "mean()" or "std()".
 Now we actually perform the selection on the data.
 Again, we clean up our intermediate objects.
 
